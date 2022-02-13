@@ -1,0 +1,103 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+body{
+  background:url(https://i.ibb.co/5K27vKq/7.jpg);
+  background-size: 100% 100%;
+  background-position: center 0px;
+  background-attachment: fixed;
+}
+
+header nav{
+  position: 0px;
+  bottom: 0;
+  height: 61px;
+  line-height: 60px;
+  width: 1366px;
+
+  text-align: center;
+  opacity: 1;
+}
+
+header nav a{
+  color: black;
+  display: inline-block;
+  padding: 20px 30px;
+  line-height: 1px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+header nav a:hover{
+  background: #757158;
+}
+
+iframe{
+  margin: 0 auto;
+  padding-top: 51PX;
+  width: 579PX;
+  height:378PX;
+  background: center auto;
+}
+
+
+.slider{
+    width: 46%;
+    margin: 50px auto;
+    overflow: hidden;
+    
+    
+}
+
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+
+    
+    animation: cambio 20s infinite;
+    animation-direction: alternate;
+    
+}
+
+.slider li{
+    width: 400%;
+    list-style: none; 
+    
+   
+}
+
+.slider img{
+    width: 100%;
+    border-radius: 10px;
+    
+    
+    
+}
+
+
+@keyframes cambio{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+    
+    25%{margin-left:-100%;}
+    45%{margin-left:-100%;}
+    
+    50%{margin-left:-200%;}
+    70%{margin-left:-200%;}
+    
+    75%{margin-left:-300%;}
+    100%{margin-left:-300%;}
+    
+    
+    
+    
+    
+    
+}
+
